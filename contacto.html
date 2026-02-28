@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Cerrajería Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CERRAJERÍA<span>PRO</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section" style="margin-top: 60px; padding: 4rem 5%;">
+        <div class="container grid-2">
+            <div class="contact-info">
+                <h2>Contáctanos</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Calle Principal #123, Ciudad Metal</p>
+                <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> info@cerrajeriapro.com</p>
+            </div>
+
+            <form id="form-contacto" class="contact-form">
+                <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                <input type="email" id="email" placeholder="Correo Electrónico" required>
+                <textarea id="mensaje" placeholder="Tu mensaje..." rows="5" required></textarea>
+                <button type="submit" class="btn-main" style="width: 100%; border: none; cursor: pointer;">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Cerrajería Profesional - Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
